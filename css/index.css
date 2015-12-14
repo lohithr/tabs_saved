@@ -93,7 +93,7 @@ p a:hover {
   color: #0e83cd;
 }
 
-.btn {
+.btnl {
   color: #fff;
   cursor: pointer;
   display: block;
@@ -109,50 +109,50 @@ p a:hover {
   width: 100%;
 }
 @media (min-width: 400px) {
-  .btn {
+  .btnl {
     display: inline-block;
     margin-right: 2.5em;
   }
-  .btn:nth-of-type(even) {
+  .btnl:nth-of-type(even) {
     margin-right: 0;
   }
 }
 @media (min-width: 600px) {
-  .btn:nth-of-type(even) {
+  .btnl:nth-of-type(even) {
     margin-right: 2.5em;
   }
-  .btn:nth-of-type(5) {
+  .btnl:nth-of-type(5) {
     margin-right: 0;
   }
 }
-.btn:hover {
+.btnl:hover {
   text-decoration: none;
 }
 
-.btn-1 {
+.btnl-1 {
   background: #0e83cd;
   font-weight: 100;
 }
-.btn-1 svg {
+.btnl-1 svg {
   height: 45px;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
 }
-.btn-1 rect {
+.btnl-1 rect {
   fill: none;
   stroke: #fff;
   stroke-width: 2;
   stroke-dasharray: 422, 0;
 }
 
-.btn-1:hover {
+.btnl-1:hover {
   background: rgb(14,131,205);
   font-weight: 900;
   letter-spacing: 1px;
 }
-.btn-1:hover rect {
+.btnl-1:hover rect {
   stroke-width: 5;
   stroke-dasharray: 15, 310;
   stroke-dashoffset: 48;
